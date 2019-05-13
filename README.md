@@ -1,3 +1,5 @@
+[![ice](https://img.shields.io/badge/developing%20with-ICE-2077ff.svg)](https://github.com/alibaba/ice)
+
 # 日常打卡
 
 ## 基于alibaba的飞冰构建项目
