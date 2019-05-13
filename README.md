@@ -18,4 +18,6 @@
 
 ## 效果图
 
-![screenshot](https://img.alicdn.com/tfs/TB1CjPVw4naK1RjSZFBXXcW7VXa-2872-1580.png)
+![screenshot_1](https://i.loli.net/2019/05/13/5cd8d7f1bcf7413813.png)
+![screenshot_1](https://i.loli.net/2019/05/13/5cd8d81ea0fa541407.png)
+
