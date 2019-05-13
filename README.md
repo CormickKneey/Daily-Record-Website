@@ -1,4 +1,7 @@
-# ice-scaffold-lite
+# 日常打卡
+
+## 基于alibaba的飞冰构建项目
+
 
 ## 使用
 
@@ -21,3 +24,8 @@
 ![screenshot_1](https://i.loli.net/2019/05/13/5cd8d7f1bcf7413813.png)
 ![screenshot_1](https://i.loli.net/2019/05/13/5cd8d81ea0fa541407.png)
 
+## 数据存储方案
+- localstorage (No Redux)
+
+## 主要逻辑
+- SortCardList.jsx
