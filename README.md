@@ -29,3 +29,6 @@
 
 ## 主要逻辑
 - SortCardList.jsx
+
+## 注意
+- 调整用于测试的console.log() 避免内存泄漏
