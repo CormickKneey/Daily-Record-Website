@@ -76,18 +76,22 @@ export default class SortCardList extends Component {
   }
 //=================================刷新任务=======================================
   freshlocal = () => {
-  var todoslocal = JSON.parse(localStorage.getItem("todos_list"));
-  var currentdate = new Date().toLocaleDateString();
-  var targetdate = todoslocal[0].date;
-  console.log('测试时间：'+todoslocal[0].date);
-  console.log('当前时间：'+currentdate);
-  console.log('比较结果:' +(targetdate > currentdate));
-  if(todoslocal){
-    if(targetdate > currentdate){
+  if(localStorage.getItem("todos_list")){
+    var todoslocal = JSON.parse(localStorage.getItem("todos_list"));
+    if(
+      todoslocal[0].date < (new Date().toLocaleDateString())
+    ){
     localStorage.clear();
-    return;
     }
   }
+  if(localStorage.getItem("dones_list")){
+    var doneslocal = JSON.parse(localStorage.getItem("dones_list"));
+    if(doneslocal[0].date < (new Date().toLocaleDateString())){
+      localStorage.clear();
+    }
+  }
+
+  return;
 }
 //=================================完成任务=======================================
 
