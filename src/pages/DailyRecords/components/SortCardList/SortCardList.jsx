@@ -75,7 +75,8 @@ export default class SortCardList extends Component {
     clearInterval(this.timerID);
   }
 //=================================刷新任务=======================================
-  freshlocal = () => {
+//去除console.log()部分  
+freshlocal = () => {
   if(localStorage.getItem("todos_list")){
     var todoslocal = JSON.parse(localStorage.getItem("todos_list"));
     if(
@@ -121,7 +122,7 @@ export default class SortCardList extends Component {
   handleDelte = (e) => {
     var todoArray = this.state.todos;
     var target_id = e.target.getAttribute('id');
-
+ 
     for(var i in todoArray){
       if (todoArray[i].id == target_id)
         todoArray.splice(i,1);
