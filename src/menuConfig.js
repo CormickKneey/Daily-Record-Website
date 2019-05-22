@@ -36,6 +36,11 @@ const asideMenuConfig = [
       },
     ],
   },
+  {
+    name: '\u6587\u4EF6\u5BC4\u5B58 : )',
+    path: '/upload',
+    icon: 'home',
+  },
 ];
 
 export { headerMenuConfig, asideMenuConfig };
