@@ -26,6 +26,9 @@
 ![screenshot_1](https://i.loli.net/2019/05/13/5cd8d7f1bcf7413813.png)
 ![screenshot_1](https://i.loli.net/2019/05/13/5cd8d81ea0fa541407.png)
 
+### 添加了文件上传部分 2019/5/22
+![screenshot_1](https://i.loli.net/2019/05/22/5ce502647222491219.png)
+
 ## 数据存储方案
 - localstorage (No Redux)
 
