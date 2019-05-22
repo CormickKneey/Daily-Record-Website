@@ -82,12 +82,14 @@ export default class SortCardList extends Component {
       todoslocal[0].date < (new Date().toLocaleDateString())
     ){
     localStorage.clear();
+    location.reload();
     }
   }
   if(localStorage.getItem("dones_list")){
     var doneslocal = JSON.parse(localStorage.getItem("dones_list"));
     if(doneslocal[0].date < (new Date().toLocaleDateString())){
       localStorage.clear();
+      localtion.reload();
     }
   }
 
