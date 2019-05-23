@@ -23,8 +23,11 @@
 
 ## 效果图
 
-![screenshot_1](https://i.loli.net/2019/05/13/5cd8d7f1bcf7413813.png)
-![screenshot_1](https://i.loli.net/2019/05/13/5cd8d81ea0fa541407.png)
+![screenshot_1](https://i.loli.net/2019/05/23/5ce6558a6d55549374.png)
+![screenshot_1](https://i.loli.net/2019/05/23/5ce655bf2263216805.png)
+![screenshot_1](https://i.loli.net/2019/05/23/5ce655e80d58990809.png)
+![screenshot_1](https://i.loli.net/2019/05/23/5ce656015410e13465.png)
+
 
 ## 数据存储方案
 - localstorage (No Redux)
