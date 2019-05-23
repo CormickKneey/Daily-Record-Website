@@ -38,8 +38,17 @@ const asideMenuConfig = [
   },
   {
     name: '\u6587\u4EF6\u5BC4\u5B58 : )',
-    path: '/upload',
-    icon: 'home',
+    path: '/storage',
+    icon: 'upload',
+    children:[
+      {
+        name: '上传',
+        path:'/storage/upload',
+      },{
+        name: '下载',
+        path:'/storage/download',
+      },
+    ],
   },
 ];
 

@@ -1,23 +1,14 @@
 import React, { Component } from 'react';
 import { Icon, Grid ,Upload} from '@alifd/next';
-import Filter from './Filter';
 const { Row, Col } = Grid;
 
 
-function onPreview(info) {
-    console.log('onPreview callback : ', info);
+function onDragOver() {
+    console.log('dragover callback');
 }
 
-function onChange(info) {
-    console.log('onChange callback : ', info);
-}
-
-function onSuccess(res, file) {
-    console.log('onSuccess callback : ', res, file);
-}
-
-function onError(file) {
-    console.log('onError callback : ', file);
+function onDrop(fileList) {
+    console.log('drop callback : ', fileList);
 }
 
 export default class CardList extends Component {
@@ -37,16 +28,16 @@ export default class CardList extends Component {
 
     return (
       <div style={styles.container}>
-        <Filter />
         <Row  gutter="20">
-          <Col span="8" l="6" xs="12" xxs="24">
+          <Col fixedSpan="24" l="6" xs="12" xxs="24">
             <div style={{ ...styles.card, ...styles.createScheme }}>
-              <Icon
-                type="add"
-                size="large"
-                style={styles.addIcon}
-                />
-              <span>上传文件</span>
+              <Upload.Dragger
+                  listType="image"
+                  action="http://192.168.0.1:9999/file"
+                  accept="image/png, image/jpg, image/jpeg, image/gif, image/bmp"
+                  onDragOver={onDragOver}
+                  onDrop={onDrop}
+              />
             </div>
           </Col>
           <img
@@ -55,20 +46,6 @@ export default class CardList extends Component {
           height="100"
           width="100"
           />
-        <Col  span="8" gutter="20">
-            <div>
-              <Upload.Card
-                  listType="card"
-                  action="http://192.168.0.1:9999/file"
-                  accept="image/png, image/jpg, image/jpeg, image/gif, image/bmp"
-                  method="post"
-                  onPreview={onPreview}
-                  onChange={onChange}
-                  onSuccess={onSuccess}
-                  onError={onError}
-              />
-            </div>
-          </Col>
         </Row>
       </div>
 

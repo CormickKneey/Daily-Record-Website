@@ -15,7 +15,7 @@ const routerConfig = [
     component: DailyRecords,
   },
   {
-    path: '/upload',
+    path: '/storage/upload',
     component: Upload,
   },
 ];
