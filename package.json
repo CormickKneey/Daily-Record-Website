@@ -21,7 +21,6 @@
     "@icedesign/layout": "1.x",
     "@icedesign/theme": "1.x",
     "antd": "3.18.2",
-    "axios": "0.17.1",
     "bizcharts": "latest",
     "classnames": "2.2.5",
     "enquire-js": "0.1.2",
