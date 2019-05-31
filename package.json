@@ -21,7 +21,7 @@
     "@icedesign/layout": "^1.x",
     "@icedesign/theme": "^1.x",
     "antd": "^3.18.2",
-    "bizcharts": "^latest",
+    "bizcharts": "latest",
     "classnames": "^2.2.5",
     "enquire-js": "^0.1.2",
     "moment": "^2.23.0",
