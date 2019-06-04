@@ -1,7 +1,7 @@
 [![ice](https://img.shields.io/badge/developing%20with-ICE-2077ff.svg)](https://github.com/alibaba/ice)
 [![Build Status](https://travis-ci.org/CormickKneey/Daily-Record-Website.svg?branch=master)](https://travis-ci.org/CormickKneey/Daily-Record-Website)
 
-# 日常打卡
+# 日常打卡&文件云存储
 
 ## 基于alibaba的飞冰构建项目
 
